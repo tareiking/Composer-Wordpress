@@ -7,6 +7,22 @@
         {
             "type": "package",
             "package": {
+                "name": "roots/roots",
+                "type": "wordpress-theme",
+                "version": "6.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/roots.git",
+                    "reference": "6.5.0"
+                },
+                "require": {
+                    "fancyguy/webroot-installer": "1.0.0"
+                }
+            }
+        },        
+        {
+            "type": "package",
+            "package": {
                 "type": "webroot",
                 "name": "wordpress/wordpress",
                 "version": "3.6",
@@ -25,7 +41,8 @@
         "wp-cli/wp-cli": "dev-master",
         "wordpress/wordpress": "3.6",
         "wpackagist/advanced-custom-fields": "*",
-        "wpackagist/custom-post-type-ui": "*"
+        "wpackagist/custom-post-type-ui": "*",
+        "roots/roots": "6.5.0"
     },
     "extra": {
         "installer-paths": {

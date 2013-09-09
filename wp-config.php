@@ -16,16 +16,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'YOUR_DB_NAME');
 
 /** MySQL database username */
-define('DB_USER', 'username_here');
+define('DB_USER', 'YOUR_DB_USER');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'YOUR_DB_PASSWORD');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'localhost'); // Normally localhost
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -35,6 +35,7 @@ define('DB_COLLATE', '');
 
 /** Define the content dir as app */
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/app' );
+// define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/YOUR_SITE_ROOT_HERE/app' ); // May need to be change as per readme.md
 define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/app' );
 
 /**#@+

@@ -1,22 +1,25 @@
-Composer-Wordpress
-==================
+TK-COMPOSER-WP
+==============
 
-A base Composer.json file made to install Wordpress and some key plugins I use.
+Initially Forked from: kalenjohnson/Composer-Wordpress
 
-Installs Wordpress 3.6
+1. Removed rmccue/requests and wp-cli from dependency list
+2. Added roots/roots repo to dependency list
 
-Sets the Wordpress directory as "wp" in the root dir (yes, WP is installed in it's own directory)
+## Important
 
-Sets the wp-content folder to "app" in the root dir
+In order for roots theme to work, you may have to edit 'WP_CONTENT_DIR' found in wp-config to add the path of your app.
+ Example:
 
-Installs plugins:
-* Advanced Custom Fields
-* Custom Post Type UI
+ <code>
+	define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/tk-composer-wp/app' );
 
-Also installs the Composer package WP-CLI.
+	was changed from: 
 
-I will continue to add more as I see fit. Looking to create something I can use as a base for most new projects.
+	define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/app' );
+
+ </code>
+
 
 Most of this is based on Scott Walkinshaw's "Using Composer with Wordpress" post.
-
 http://roots.io/using-composer-with-wordpress/

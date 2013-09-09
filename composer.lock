@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "3e286976eac11dbb41699511b0cf5b8a",
+    "hash": "7cbc251fd284796c0ed91389a1f4f200",
     "packages": [
         {
             "name": "composer/installers",
@@ -254,6 +254,19 @@
             "time": "2013-08-18 08:19:24"
         },
         {
+            "name": "roots/roots",
+            "version": "6.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/roots/roots.git",
+                "reference": "6.5.0"
+            },
+            "require": {
+                "fancyguy/webroot-installer": "1.0.0"
+            },
+            "type": "wordpress-theme"
+        },
+        {
             "name": "wordpress/wordpress",
             "version": "3.6",
             "dist": {
@@ -318,12 +331,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/wp-cli.git",
-                "reference": "59f72ed557b536fe95ffc2ff78483f1505ae6f94"
+                "reference": "2d7df3a759953464746070f73046164f1fed381e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/59f72ed557b536fe95ffc2ff78483f1505ae6f94",
-                "reference": "59f72ed557b536fe95ffc2ff78483f1505ae6f94",
+                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/2d7df3a759953464746070f73046164f1fed381e",
+                "reference": "2d7df3a759953464746070f73046164f1fed381e",
                 "shasum": ""
             },
             "require": {
@@ -362,14 +375,14 @@
                 "cli",
                 "wordpress"
             ],
-            "time": "2013-08-30 16:52:13"
+            "time": "2013-09-06 19:17:13"
         },
         {
             "name": "wpackagist/advanced-custom-fields",
-            "version": "trunk",
+            "version": "4.2.1",
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/advanced-custom-fields.zip",
+                "url": "http://downloads.wordpress.org/plugin/advanced-custom-fields.4.2.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -381,10 +394,10 @@
         },
         {
             "name": "wpackagist/custom-post-type-ui",
-            "version": "trunk",
+            "version": "0.8.0.0",
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/custom-post-type-ui.zip",
+                "url": "http://downloads.wordpress.org/plugin/custom-post-type-ui.0.8.0.0.zip",
                 "reference": null,
                 "shasum": null
             },
