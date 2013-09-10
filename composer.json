@@ -1,4 +1,11 @@
 {
+    "comment": "Automatically gets roots child via git.. what happens when you run this command twice?",
+    "scripts": {
+        "post-install-cmd": [
+            "echo All done!  Optional commands: \n",
+            "echo git clone https://github.com/tareiking/roots-child.git app/themes/roots-child"
+        ]
+    },
     "repositories": [
         {
             "type":"composer",
