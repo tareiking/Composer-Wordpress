@@ -1,10 +1,19 @@
 {
+<<<<<<< HEAD
     "_comment": "The scripts line will auto install roots-child",
     "scripts": {
         "post-install-cmd":
             "git clone git@github.com:tareiking/roots-child.git app/themes/roots-child",
         "post-install-cmd":            
             "cp wp/wp-config-sample.php ./wp-config.php"
+=======
+    "comment": "Automatically gets roots child via git.. what happens when you run this command twice?",
+    "scripts": {
+        "post-install-cmd": [
+            "echo All done!  Optional commands: \n",
+            "echo git clone https://github.com/tareiking/roots-child.git app/themes/roots-child"
+        ]
+>>>>>>> 713551beb8d48a6a11cb3c39148b79ca3813077d
     },
     "repositories": [
         {
