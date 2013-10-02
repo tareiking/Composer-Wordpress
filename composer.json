@@ -1,4 +1,11 @@
 {
+    "_comment": "The scripts line will auto install roots-child",
+    "scripts": {
+        "post-install-cmd":
+            "git clone git@github.com:tareiking/roots-child.git app/themes/roots-child",
+        "post-install-cmd":            
+            "cp wp/wp-config-sample.php ./wp-config.php"
+    },
     "repositories": [
         {
             "type":"composer",
@@ -9,7 +16,8 @@
             "package": {
                 "name": "roots/roots",
                 "type": "wordpress-theme",
-                "version": "6.5.0",
+                "version": "6.5",
+                "trunk-path": "master",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/roots/roots.git",
@@ -40,7 +48,7 @@
         "wordpress/wordpress": "3.6",
         "wpackagist/advanced-custom-fields": "*",
         "wpackagist/custom-post-type-ui": "*",
-        "roots/roots": "6.5.0"
+        "roots/roots": "*"
     },
     "extra": {
         "installer-paths": {

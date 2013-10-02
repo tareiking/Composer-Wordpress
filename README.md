@@ -19,6 +19,19 @@ Was changed from:
 	define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/app' );
 </code>
 
+### Things TODO
+
+1. Add WooCommerce support
+2. Add Child theme support
+3. Give options for activating other things
+4. Show instructions on how to add composer to add plugins
+5. Figure out exactly when its required to change this setting: WP_CONTENT_URL 
+6. Maybe change the WP_ADMIN setting as well
+
+### Moar automation
+
+1. Auto-activate installed plugins
+2. Auto-configure WP settings
 
 ### Thanks to
 

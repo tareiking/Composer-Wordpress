@@ -4,4 +4,8 @@
 /app/themes/*
 !/app/plugins/index.php
 !/app/themes/index.php
+!/app/themes/roots-child
+wp-config.php
+todo.md
 wp-config-local.php
+composer.lock
