@@ -5,7 +5,8 @@
         "post-install-cmd": [
             "git clone https://github.com/tareiking/roots-child.git app/themes/roots-child",
             "cp wp/wp-config-sample.php ./wp-config.php",
-            "echo All done!  Optional commands: \n",
+            "echo All done!  Optional commands: \n"
+            "echo git clone https://github.com/tareiking/roots-child.git app/themes/roots-child"
         ]
     },
     "repositories": [
